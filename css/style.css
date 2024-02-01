@@ -3,21 +3,43 @@
 }
 
 body {
+--blkBorder: 5px solid black;
+--primary: rgb(147,147,241);
+--bluBorder: 5px solid rgb(147,147,241);
+--secondary: rgb(162,155,155);
+--tertiary: rgb(54,49,49);
+--dark: black;
+--light: white;
+}
+
+body{
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Trebuchet MS', 'Lucia Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--tertiary);
+  background-color: var(--light);
   line-height: 1.5;
+
 }
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   margin: 0;
 }
 
 p {
   margin: 0;
 }
+
+header { 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+
+}
+
+
