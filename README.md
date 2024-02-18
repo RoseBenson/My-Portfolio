@@ -13,7 +13,7 @@ This application is a showcase of my portfolio, which one is able to navigate to
 
 #### Access the application on: - 
 
-[Link to deployed page](https://rootgeorge17.github.io/Movie-Quest/)
+[Link to deployed page](https://rosebenson.github.io/My-Portfolio/)
 
 
 ## Creator
